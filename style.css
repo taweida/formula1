@@ -26,7 +26,7 @@ body {
     z-index: -1;
     filter: blur(70px)
 }
-.loading-test {
-    font-size: 100px;
+.loading-text {
+    font-size: 50px;
     color: white;
 }
