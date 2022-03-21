@@ -8,7 +8,14 @@
 </head>
 
 <body>
+    
     <section class="bg"></section>
     <div class="loading-text">0%</div>
     <script src="script.js"></script>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
 </body>
