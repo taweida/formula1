@@ -5,7 +5,7 @@
 }
 
 
-/* body {
+.bodyForLoading {
     font-family: 'Prompt', sans-serif;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
     height: 100vh;
     overflow: hidden;
     margin: 0;
-} */
+}
 
 
 .bg {

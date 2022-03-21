@@ -31,7 +31,7 @@
     </ul>
 </ul>
 </nav>
-<body>
+<body class="bodyForLoading">
     <div class="loading-text">0%</div>
     <script src="script.js"></script>
 </body>
