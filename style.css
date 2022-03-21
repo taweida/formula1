@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+.myHead {
+    font-family: 'Prompt', sans-serif;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10%;
+    color: whitesmoke;
+}
 
 .bodyForLoading {
     font-family: 'Prompt', sans-serif;
@@ -33,32 +43,16 @@
     color: white;
 }
 
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-/* NavBar from w3Schools.com */
-ul {
-    list-style-type: none;
-    margin: 0;
-    margin-right: 20px;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
+.container {
     display: flex;
   }
   
-  li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
+  .item {
+    flex-grow: 1;
+    height: 500px;
+    background-color: aliceblue;
   }
   
-  /* Change the link color on hover */
-  li a:hover {
-    background-color: #555;
-    color: white;
+  .item + .item {
+    margin-left: 2%;
   }
