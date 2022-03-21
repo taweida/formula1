@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-body {
+
+/* body {
     font-family: 'Prompt', sans-serif;
     display: flex;
     flex-direction: column;
@@ -13,7 +14,8 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
-}
+} */
+
 
 .bg {
     background: url(appBackground.jpeg) 
@@ -31,13 +33,21 @@ body {
     color: white;
 }
 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 /* NavBar from w3Schools.com */
 ul {
     list-style-type: none;
     margin: 0;
+    margin-right: 20px;
     padding: 0;
     width: 200px;
     background-color: #f1f1f1;
+    display: flex;
   }
   
   li a {
